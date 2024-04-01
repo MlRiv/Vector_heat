@@ -15,7 +15,7 @@ Ensure you have the following dependencies installed:
 ## Code Sources
 
 The code for the Vector Heat Method implementation is adapted from the following sources (additional in the notebook):
-- [Link to Nicholas Sharp's GitHub repository](https://www.cs.cmu.edu/~kmcrane/Projects/VectorHeatMethod/index.html) for the core algorithm.
-- [Link to Keenan Crane's GitHub repository](https://github.com/keenanisalive/vectorheat) for additional utility functions and examples.
+- [Link to Nicholas Sharp's academic page](https://www.cs.cmu.edu/~kmcrane/Projects/VectorHeatMethod/index.html) for a nice demo.
+- [Link to Keenan Crane's GitHub repository](https://www.cs.cmu.edu/~kmcrane/Projects/VectorHeatMethod/index.html) for additional background on heat diffusion methods.
 
 
