@@ -8,43 +8,14 @@ Ensure you have the following dependencies installed:
 - NumPy
 - SciPy
 - Matplotlib
+- Pytorch
+- Torchvision
+- Kornia (optional)
 
 ## Code Sources
 
-The code for the Vector Heat Method implementation is adapted from the following sources:
-- [Link to Nicholas Sharp's GitHub repository](https://github.com/nmwsharp/vectorheat) for the core algorithm.
+The code for the Vector Heat Method implementation is adapted from the following sources (additional in the notebook):
+- [Link to Nicholas Sharp's GitHub repository]() for the core algorithm.
 - [Link to Keenan Crane's GitHub repository](https://github.com/keenanisalive/vectorheat) for additional utility functions and examples.
 
-## Vector Heat Method Implementation
-
-The implementation consists of the following steps:
-1. Loading the surface mesh.
-2. Preprocessing the mesh if necessary (e.g., computing face normals).
-3. Computing the Laplace-Beltrami operator.
-4. Solving the linear system using the Vector Heat Method.
-5. Extracting geodesic distances from the solution.
-
-Let's proceed with the implementation.
-
-```python
-# Importing necessary libraries
-import numpy as np
-import matplotlib.pyplot as plt
-from scipy.sparse.linalg import splu
-from scipy.sparse import csr_matrix
-
-# Load surface mesh (replace with your mesh loading code)
-vertices, faces = load_mesh('example_mesh.obj')
-
-# Preprocessing: compute face normals if needed
-normals = compute_face_normals(vertices, faces)
-
-# Compute Laplace-Beltrami operator
-L = compute_laplacian(vertices, faces, normals)
-
-# Solve linear system using Vector Heat Method
-geodesic_distances = solve_vector_heat(L)
-
-# Visualize geodesic distances on the mesh
-visualize_geodesic_distances(vertices, faces, geodesic_distances)
 
