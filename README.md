@@ -15,7 +15,7 @@ Ensure you have the following dependencies installed:
 ## Code Sources
 
 The code for the Vector Heat Method implementation is adapted from the following sources (additional repositories have been used, and are referenced in the notebook):
-- [Link to Nicholas Sharp's academic page](https://www.cs.cmu.edu/~kmcrane/Projects/VectorHeatMethod/index.html) for a nice demo.
+- [Link to Nicholas Sharp's academic page](https://www.cs.cmu.edu/~kmcrane/Projects/VectorHeatMethod/index.html) for a nice demo and the relevant links to Geometry Central.
 - [Link to Keenan Crane's pages](https://www.cs.cmu.edu/~kmcrane/Projects/VectorHeatMethod/index.html) for additional background on heat diffusion methods.
 
 
